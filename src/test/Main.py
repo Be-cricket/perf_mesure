@@ -2,7 +2,7 @@
 '''
 Created on 2019/08/09
 
-@author: yasaka100457
+@author: 
 '''
 
 import sys
