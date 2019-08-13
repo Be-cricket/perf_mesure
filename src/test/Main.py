@@ -7,7 +7,6 @@ Created on 2019/08/09
 
 import sys
 import re
-#import chardet
 
 timetable = {}
 
@@ -32,7 +31,6 @@ def main():
         for row in f:
             getStatistics( row.strip() )
             
-    #print( timetable )
     for k,v in timetable.items():
         print( k ,',', v)
     
@@ -78,4 +76,3 @@ def timeToSec( timestr ):
 
 if __name__ == '__main__':
     main()
-    pass
